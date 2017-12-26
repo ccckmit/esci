@@ -9,6 +9,7 @@
 $ npm install -g electron
 $ git clone https://github.com/ccckmit/esci.git
 $ cd esci
+$ npm i
 $ npm i -g
 ```
 
