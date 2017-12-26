@@ -7,10 +7,7 @@
 
 ```
 $ npm install -g electron
-$ git clone https://github.com/ccckmit/esci.git
-$ cd esci
-$ npm i
-$ npm i -g
+$ npm install -g esci
 ```
 
 ## Run
@@ -22,7 +19,7 @@ $ esci <file>
 
 ## Example : ChartDemo
 
-File: [demo/chartDemo.js](demo/chartDemo.js)
+File: [chartDemo.js](demo/chartDemo.js)
 
 ```
 var j6 = require('j6')
@@ -77,7 +74,7 @@ main()
 Run
 
 ```
-$ esci chart/chartDemo.js
+$ esci chartDemo.js
 ```
 
 ![](demo/esciChartDemo.png)
