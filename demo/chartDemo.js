@@ -1,5 +1,4 @@
 var j6 = require('j6')
-// var c6 = require('../lib/c6')
 
 function hist (g, name, x, k) {
   var mk = x.mfillv(k, x.length / k)
