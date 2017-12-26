@@ -1,0 +1,23 @@
+{
+  "name": "esci",
+  "version": "0.4.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "dependencies": {
+    "c6": "^0.1.0",
+    "j6": "^1.0.2"
+  },
+  "bin": {
+    "esci": "run.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ccckmit/esci.git"
+  },
+  "author": {
+    "name": "Chung-Chen Chen",
+    "email": "ccckmit@gmail.com"
+  },
+  "license": "MIT"
+}
