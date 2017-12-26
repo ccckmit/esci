@@ -3,7 +3,7 @@
 var runFile = process.argv[2]
 var jsFile, htmlFile
 if (runFile.indexOf('.html') < 0) {
-  htmlFile = 'source/c6.html'
+  htmlFile = 'source/chart.html'
   jsFile = runFile
 } else {
   htmlFile = runFile
