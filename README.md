@@ -1,4 +1,4 @@
-# esci -- A Scientific Chart GUI for based on Electron/node.js
+# Esci -- A Scientific Chart GUI for based on Electron/node.js
 
 ## Install
 
@@ -21,7 +21,7 @@ $ esci <file>
 
 ## Example : ChartDemo
 
-File: chartDemo.js
+File: [demo/chartDemo.js](demo/chartDemo.js)
 
 ```
 var j6 = require('j6')
@@ -76,7 +76,7 @@ main()
 Run
 
 ```
-$ esci chartDemo.js
+$ esci chart/chartDemo.js
 ```
 
 ![](demo/esciChartDemo.png)
@@ -84,4 +84,4 @@ $ esci chartDemo.js
 ## Notice
 
 1. esci run file in [electron.js renderer process](https://github.com/electron/electron/blob/master/docs/tutorial/quick-start.md#renderer-process) mode .
-2. If your code do not call chart library, just use the `node <file>` to run it
+2. If your code is not an electron renderer module, just use the `node <file>` to run in node.js mode.
